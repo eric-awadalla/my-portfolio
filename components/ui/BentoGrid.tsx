@@ -48,7 +48,6 @@ export const BentoGridItem = ({
   imgClassName?: string;
   titleClassName?: string;
   spareImg?: string;
-  src: string;
 }) => {
   const [copied, setCopied] = useState(false);
   const handleCopy = () => {

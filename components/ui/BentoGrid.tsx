@@ -34,8 +34,8 @@ export const BentoGridItem = ({
   description,
   id,
   img,
-  imgClassname,
-  titleClassname,
+  imgClassName,
+  titleClassName,
   spareImg,
 }: {
   className?: string;
@@ -45,8 +45,8 @@ export const BentoGridItem = ({
   icon?: React.ReactNode;
   id: number;
   img?: string;
-  imgClassname?: string;
-  titleClassname?: string;
+  imgClassName?: string;
+  titleClassName?: string;
   spareImg?: string;
   src: string;
 }) => {
@@ -73,7 +73,7 @@ export const BentoGridItem = ({
             <img
               src={img}
               alt={img}
-              className={cn(imgClassname, "object-cover, object-center")}
+              className={cn(imgClassName, "object-cover object-center ")}
             />
           )}
         </div>
@@ -97,7 +97,7 @@ export const BentoGridItem = ({
         )}
         <div
           className={cn(
-            titleClassname,
+            titleClassName,
             "group-hover/bento:translate-x-2 transition duration-200 relative min-h-40 md:h-full flex flex-col px-5 p-5 lg:p-10"
           )}
         >
@@ -110,7 +110,7 @@ export const BentoGridItem = ({
 
           {id === 2 && <GlobeDemo />}
           {id === 3 && (
-            <div className="flex gap-1 lg:gap-5 w-fit absolute z-20 lg:top-2 -right-3 lg:-right-1">
+            <div className="flex gap-1 lg:gap-5 w-fit absolute z-20 -right-3 lg:-right-1">
               <div className="flex flex-col gap-3 md:gap-3 lg:gap-4">
                 {["Html", "Css", "Javascript"].map((item) => (
                   <span
@@ -125,7 +125,7 @@ export const BentoGridItem = ({
               </div>
               <div className="flex flex-col gap-3 md:gap-3 lg:gap-4 ">
                 <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]" />
-                {["React.js", "Tailwindcss"].map((item) => (
+                {["React.js", "Tailwindcss", "Typescript"].map((item) => (
                   <span
                     key={item}
                     className="py-2 px-3 lg:py-2 lg:px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E] "

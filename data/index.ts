@@ -92,32 +92,6 @@ export const projects = [
     link: "https://github.com/eric4477/clone-trello-home-page",
     liveLink: "https://clone-trello-home-page.vercel.app/",
   },
-  {
-    id: 3,
-    title: "Todo App",
-    des: "This project is a simple todo list application built using HTML, CSS, and JavaScript.",
-    img: "/todo-app.png",
-    iconLists: [
-      "/html-5-logo-svgrepo-com.svg",
-      "/css-3-logo-svgrepo-com.svg",
-      "/javascript-svgrepo-com.svg",
-    ],
-    link: "https://github.com/eric4477/todo-app",
-    liveLink: "https://eric4477.github.io/todo-app/",
-  },
-  {
-    id: 4,
-    title: "Todo App",
-    des: "This project is a simple todo list application built using HTML, CSS, and JavaScript.",
-    img: "/todo-app.png",
-    iconLists: [
-      "/html-5-logo-svgrepo-com.svg",
-      "/css-3-logo-svgrepo-com.svg",
-      "/javascript-svgrepo-com.svg",
-    ],
-    link: "https://github.com/eric4477/todo-app",
-    liveLink: "https://eric4477.github.io/todo-app/",
-  },
 ];
 
 export const testimonials = [

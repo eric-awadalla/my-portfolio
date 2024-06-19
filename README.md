@@ -10,6 +10,7 @@ Check out the live version of my portfolio [here](https://eric-web-portfolio.ver
 
 - **Next.js**: A React framework for building fast, server-rendered applications.
 - **TypeScript**: A strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
+- **Tailwind CSS**: A utility-first CSS framework for rapidly building custom user interfaces.
 - **Aceternity UI**: A powerful and flexible UI component library.
 
 ## Project Overview

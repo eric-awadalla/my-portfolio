@@ -2,7 +2,7 @@
 
 import { cn } from "@/utils/cn";
 import { BackgroundGradientAnimation } from "./GradientBg";
-import { GlobeDemo } from "./GridGlobe";
+import GridGlobe from "./GridGlobe";
 import MagicButton from "./MagicButton";
 import { useState } from "react";
 import animationData from "@/data/confetti.json";
@@ -50,9 +50,16 @@ export const BentoGridItem = ({
   spareImg?: string;
 }) => {
   const [copied, setCopied] = useState(false);
+
+  const leftLists = ["Html", "CSS", "JavaScript"];
+  const rightLists = ["TailwindCSS", "TypeScript"];
+
   const handleCopy = () => {
     navigator.clipboard.writeText("ericgeorge4477@gmail.com");
     setCopied(true);
+    setTimeout(() => {
+      setCopied(false);
+    }, 4000);
   };
   return (
     <div
@@ -100,21 +107,24 @@ export const BentoGridItem = ({
             "group-hover/bento:translate-x-2 transition duration-200 relative min-h-40 md:h-full flex flex-col px-5 p-5 lg:p-10"
           )}
         >
-          <div className="font-sans font-extralight text-[#c1c2d3] text-sm md:text-xs lg:text-base z-10">
+          <div className="font-sans font-extralight md:max-w-32 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
             {description}
           </div>
-          <div className="font-sans font-bold text-lg lg:text-3xl max-w-96 z-20">
+          <div
+            className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10`}
+          >
             {title}
           </div>
-
-          {id === 2 && <GlobeDemo />}
+          {/* for the github 3d globe */}
+          {id === 2 && <GridGlobe />}
+          {/* Tech stack list div */}
           {id === 3 && (
-            <div className="flex gap-1 lg:gap-5 w-fit absolute z-20 -right-3 lg:-right-1">
-              <div className="flex flex-col gap-3 md:gap-3 lg:gap-4">
-                {["Html", "Css", "Javascript"].map((item) => (
+            <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
+              <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
+                {leftLists.map((item) => (
                   <span
                     key={item}
-                    className="lg:py-2 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
+                    className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
                     lg:opacity-100 rounded-lg text-center bg-[#10132E]"
                   >
                     {item}
@@ -122,12 +132,13 @@ export const BentoGridItem = ({
                 ))}
                 <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]" />
               </div>
-              <div className="flex flex-col gap-3 md:gap-3 lg:gap-4 ">
+              <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
                 <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]" />
-                {["React.js", "Tailwindcss", "Typescript"].map((item) => (
+                {rightLists.map((item) => (
                   <span
                     key={item}
-                    className="py-2 px-3 lg:py-2 lg:px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E] "
+                    className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
+                    lg:opacity-100 rounded-lg text-center bg-[#10132E]"
                   >
                     {item}
                   </span>
@@ -155,6 +166,7 @@ export const BentoGridItem = ({
                 position="left"
                 otherClasses="!bg-[#101a31]"
                 handleClick={handleCopy}
+                disabled={copied}
               />
             </div>
           )}

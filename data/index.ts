@@ -87,7 +87,7 @@ export const projects = [
     id: 2,
     title: "Todo App",
     des: "This project is a simple todo list application built using HTML, CSS, and JavaScript.",
-    img: "/todo-app.png",
+    img: "/trello.png",
     iconLists: [
       "/html-5-logo-svgrepo-com.svg",
       "/css-3-logo-svgrepo-com.svg",

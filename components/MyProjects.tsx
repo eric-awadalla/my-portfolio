@@ -18,13 +18,10 @@ const MyProjects = () => {
           >
             <PinContainer title={link} href={link}>
               <div className="relative flex item-center overflow-hidden mb-10 justify-center sm:w-[570px] h-[30vh] sm:h-[40vh] w-[80vw] ">
-                <div className="relative w-full  h-full overflow-hidden lg:rounded-3xl bg-[#13162d] ">
-                  <Image layout="fill" src="/bg.png" alt="bg-img" />
-                </div>
+                <div className="relative w-full h-full overflow-hidden rounded-lg lg:rounded-3xl bg-[#13162d] "></div>
                 <Image
-                  className="z-10 absolute bottom-0"
+                  className="z-10 absolute bottom-0 rounded-lg"
                   layout="fill"
-                  objectFit="contain"
                   src={img}
                   alt={title}
                 />

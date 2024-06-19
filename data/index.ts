@@ -85,16 +85,12 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Todo App",
-    des: "This project is a simple todo list application built using HTML, CSS, and JavaScript.",
+    title: "Trello Clone",
+    des: "This project is a clone of the popular productivity tool Trello, built using only HTML and CSS. It aims to replicate the user interface and basic functionalities of Trello's homepage while serving as a practice exercise for frontend development skills.",
     img: "/trello.png",
-    iconLists: [
-      "/html-5-logo-svgrepo-com.svg",
-      "/css-3-logo-svgrepo-com.svg",
-      "/javascript-svgrepo-com.svg",
-    ],
-    link: "https://github.com/eric4477/todo-app",
-    liveLink: "https://eric4477.github.io/todo-app/",
+    iconLists: ["/html-5-logo-svgrepo-com.svg", "/css-3-logo-svgrepo-com.svg"],
+    link: "https://github.com/eric4477/clone-trello-home-page",
+    liveLink: "https://clone-trello-home-page.vercel.app/",
   },
   {
     id: 3,

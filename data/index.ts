@@ -81,56 +81,83 @@ export const projects = [
       "/javascript-svgrepo-com.svg",
     ],
     link: "https://github.com/eric4477/todo-app",
-    liveLink: "https://eric4477.github.io/todo-app/",
+    liveLink: "https://eric4477.github.io/todo-app",
   },
   {
     id: 2,
     title: "Trello Clone",
-    des: "This project is a clone of the popular productivity tool Trello, built using only HTML and CSS. It aims to replicate the user interface and basic functionalities of Trello's homepage while serving as a practice exercise for frontend development skills.",
+    des: "This project is a clone of the popular productivity tool Trello, built using only HTML and CSS.",
     img: "/trello.png",
     iconLists: ["/html-5-logo-svgrepo-com.svg", "/css-3-logo-svgrepo-com.svg"],
     link: "https://github.com/eric4477/clone-trello-home-page",
-    liveLink: "https://clone-trello-home-page.vercel.app/",
+    liveLink: "https://clone-trello-home-page.vercel.app",
+  },
+  {
+    id: 3,
+    title: "E-commerce product page",
+    des: "Built an e-commerce product page using HTML, CSS, and React.js, featuring a dynamic product display, interactive image gallery, and a responsive design.",
+    img: "/ecommerce-product-page.png",
+    iconLists: [
+      "/html-5-logo-svgrepo-com.svg",
+      "/css-3-logo-svgrepo-com.svg",
+      "/react-svgrepo-com.svg",
+    ],
+    link: "https://github.com/eric4477/e-commerce-product-page",
+    liveLink: "https://ecommerce-product-page-four.vercel.app",
+  },
+  {
+    id: 4,
+    title: "Rent Cars Web App",
+    des: "Developed a responsive web app using HTML, Tailwind CSS, React.js, Axios, and React Router, enabling users to browse, book rental cars, and navigate seamlessly between pages",
+    img: "/rent-cars.png",
+    iconLists: [
+      "/html-5-logo-svgrepo-com.svg",
+      "/tail.svg",
+      "/react-svgrepo-com.svg",
+      "/react-router-svgrepo-com.svg",
+    ],
+    link: "https://github.com/eric4477/rent-cars-webapp",
+    liveLink: "https://rent-cars-webapp.vercel.app",
   },
 ];
 
-export const testimonials = [
-  {
-    quote:
-      "The level of professionalism and attention to detail was impressive. Our project was completed on time and exceeded our expectations. Highly recommend!",
-    name: "Jane Doe",
-    title: "Marketing Manager",
-    img: "/emily-johnson.jpg",
-  },
-  {
-    quote:
-      "Working with this team was a game-changer for our project. Their expertise in the latest technologies and dedication to quality made all the difference.",
-    name: "John Smith",
-    title: "Software Engineer",
-    img: "/profile.svg",
-  },
-  {
-    quote:
-      "Creativity and innovation were at the forefront of their work. The final product was not only functional but visually stunning. I couldn’t be happier with the results.",
-    name: "Emily Johnson",
-    title: "Graphic Designer",
-    img: "/emily-johnson.jpg",
-  },
-  {
-    quote:
-      "Their ability to understand our needs and deliver a product that fits perfectly with our goals was outstanding. The process was smooth and efficient from start to finish.",
-    name: "Michael Brown",
-    title: "Product Manager",
-    img: "/profile.svg",
-  },
-  {
-    quote:
-      "They truly understand the importance of user experience. The insights and improvements they provided have significantly enhanced our product’s usability.",
-    name: "Sarah Davis",
-    title: "UX Researcher",
-    img: "/emily-johnson.jpg",
-  },
-];
+// export const testimonials = [
+//   {
+//     quote:
+//       "The level of professionalism and attention to detail was impressive. Our project was completed on time and exceeded our expectations. Highly recommend!",
+//     name: "Jane Doe",
+//     title: "Marketing Manager",
+//     img: "/emily-johnson.jpg",
+//   },
+//   {
+//     quote:
+//       "Working with this team was a game-changer for our project. Their expertise in the latest technologies and dedication to quality made all the difference.",
+//     name: "John Smith",
+//     title: "Software Engineer",
+//     img: "/profile.svg",
+//   },
+//   {
+//     quote:
+//       "Creativity and innovation were at the forefront of their work. The final product was not only functional but visually stunning. I couldn’t be happier with the results.",
+//     name: "Emily Johnson",
+//     title: "Graphic Designer",
+//     img: "/emily-johnson.jpg",
+//   },
+//   {
+//     quote:
+//       "Their ability to understand our needs and deliver a product that fits perfectly with our goals was outstanding. The process was smooth and efficient from start to finish.",
+//     name: "Michael Brown",
+//     title: "Product Manager",
+//     img: "/profile.svg",
+//   },
+//   {
+//     quote:
+//       "They truly understand the importance of user experience. The insights and improvements they provided have significantly enhanced our product’s usability.",
+//     name: "Sarah Davis",
+//     title: "UX Researcher",
+//     img: "/emily-johnson.jpg",
+//   },
+// ];
 
 export const companies = [
   {

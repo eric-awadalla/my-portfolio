@@ -119,6 +119,41 @@ export const projects = [
     link: "https://github.com/eric4477/rent-cars-webapp",
     liveLink: "https://rent-cars-webapp.vercel.app",
   },
+  {
+    id: 5,
+    title: "User Management System",
+    des: "Developed a fully functional User Management System using React, Tailwind CSS, Context API, Axios, and TypeScript.",
+    img: "/ums.png",
+    iconLists: [
+      "/html-5-logo-svgrepo-com.svg",
+      "/tail.svg",
+      "/typescript.svg",
+      "/react-svgrepo-com.svg",
+      "/react-router-svgrepo-com.svg",
+      "/react-hook-form.svg",
+    ],
+    link: "https://github.com/eric4477/user-management-system",
+    liveLink: "https://user-management-system-4.vercel.app",
+  },
+  {
+    id: 6,
+    title: "E-Commerce Book Store",
+    des: "Built a modern E-Commerce Book Store using React, Tailwind CSS, and TypeScript. The store features dynamic product listings, a shopping cart, and secure checkout integration.",
+    img: "/book-store.png",
+    iconLists: [
+      "/html-5-logo-svgrepo-com.svg",
+      "/tail.svg",
+      "/typescript.svg",
+      "/mui.svg",
+      "/react-svgrepo-com.svg",
+      "/react-router-svgrepo-com.svg",
+      "/jwt.svg",
+      "/react-hook-form.svg",
+      "/stripe.svg",
+    ],
+    link: "https://github.com/eric4477/online-book-store",
+    liveLink: "https://online-book-store-teal.vercel.app",
+  },
 ];
 
 export const testimonials = [

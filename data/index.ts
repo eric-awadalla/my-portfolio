@@ -147,7 +147,7 @@ export const projects = [
       "/mui.svg",
       "/react-svgrepo-com.svg",
       "/react-router-svgrepo-com.svg",
-      "/jwt.svg",
+      "/redux.svg",
       "/react-hook-form.svg",
       "/stripe.svg",
     ],

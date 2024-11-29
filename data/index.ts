@@ -80,8 +80,8 @@ export const projects = [
       "/css-3-logo-svgrepo-com.svg",
       "/javascript-svgrepo-com.svg",
     ],
-    link: "https://github.com/eric4477/todo-app",
-    liveLink: "https://eric4477.github.io/todo-app",
+    link: "https://github.com/eric-awadalla/todo-app",
+    liveLink: "https://eric-awadalla.github.io/todo-app",
   },
   {
     id: 2,
@@ -89,7 +89,7 @@ export const projects = [
     des: "This project is a clone of the popular productivity tool Trello, built using only HTML and CSS.",
     img: "/trello.png",
     iconLists: ["/html-5-logo-svgrepo-com.svg", "/css-3-logo-svgrepo-com.svg"],
-    link: "https://github.com/eric4477/clone-trello-home-page",
+    link: "https://github.com/eric-awadalla/clone-trello-home-page",
     liveLink: "https://clone-trello-home-page.vercel.app",
   },
   {
@@ -102,7 +102,7 @@ export const projects = [
       "/css-3-logo-svgrepo-com.svg",
       "/react-svgrepo-com.svg",
     ],
-    link: "https://github.com/eric4477/e-commerce-product-page",
+    link: "https://github.com/eric-awadalla/e-commerce-product-page",
     liveLink: "https://ecommerce-product-page-four.vercel.app",
   },
   {
@@ -116,7 +116,7 @@ export const projects = [
       "/react-svgrepo-com.svg",
       "/react-router-svgrepo-com.svg",
     ],
-    link: "https://github.com/eric4477/rent-cars-webapp",
+    link: "https://github.com/eric-awadalla/rent-cars-webapp",
     liveLink: "https://rent-cars-webapp.vercel.app",
   },
   {
@@ -132,7 +132,7 @@ export const projects = [
       "/react-router-svgrepo-com.svg",
       "/react-hook-form.svg",
     ],
-    link: "https://github.com/eric4477/user-management-system",
+    link: "https://github.com/eric-awadalla/user-management-system",
     liveLink: "https://user-management-system-4.vercel.app",
   },
   {
@@ -151,7 +151,7 @@ export const projects = [
       "/react-hook-form.svg",
       "/stripe.svg",
     ],
-    link: "https://github.com/eric4477/online-book-store",
+    link: "https://github.com/eric-awadalla/online-book-store",
     liveLink: "https://online-book-store-teal.vercel.app",
   },
 ];
